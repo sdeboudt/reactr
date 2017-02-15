@@ -21,7 +21,7 @@
 #' mydata <- read_file(csv_file)
 #' }
 read_file <- function(file) {
-  return( read.csv2(file) )
+  return( read.csv2("cars.csv") )
 }
 
 #' Title
