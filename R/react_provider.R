@@ -8,6 +8,16 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
+#' Title
+#'
+#' @return A string telling "Hello from reactr!"
+#' @export
+#'
+#' @examples
+#' service_test
+service_test <- function() {
+  return( print("Hello from reactr!") )
+}
 
 #' Title
 #'
