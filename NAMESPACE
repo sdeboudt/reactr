@@ -2,3 +2,4 @@
 
 export(plot_file)
 export(read_file)
+export(service_test)
