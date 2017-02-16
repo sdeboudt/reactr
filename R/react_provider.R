@@ -34,7 +34,7 @@ service_test <- function() {
 #' mydata <- read_file(csv_file)
 #' }
 read_file <- function(file) {
-  return( read.csv2(system.file(file, package = "reactr")) )
+  return( read.csv2(paste0(getwd(), "/cars.csv")) )
 }
 
 #' Title
