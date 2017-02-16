@@ -34,7 +34,8 @@ service_test <- function() {
 #' mydata <- read_file(csv_file)
 #' }
 read_file <- function(file) {
-  return( read.csv2(paste0(getwd(), "/cars.csv")) )
+  print(paste0("Trying to read from file:", getwd(), "/cars.csv"))
+#  return( read.csv2(paste0(getwd(), "/cars.csv")) )
 }
 
 #' Title
