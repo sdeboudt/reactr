@@ -35,6 +35,7 @@ service_test <- function() {
 #' }
 read_file <- function(file) {
   print(paste0("Trying to read from file:", getwd(), "/cars.csv"))
+  print(paste0("This is the System file reference:", system.file(package = "reactr")))
 #  return( read.csv2(paste0(getwd(), "/cars.csv")) )
 }
 
