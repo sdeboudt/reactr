@@ -16,7 +16,10 @@
 #' @examples
 #' service_test
 service_test <- function() {
-  return( print("Hello from reactr!") )
+  print("Hello from reactr!")
+  wd <- getwd()
+  phrase <- paste("The current Working Directory is ", wd)
+  print(phrase)
 }
 
 #' Title
